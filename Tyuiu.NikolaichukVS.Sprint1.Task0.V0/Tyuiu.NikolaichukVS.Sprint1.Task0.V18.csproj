@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.NikolaichukVS.Sprint1.Task0.V0.Lib\Tyuiu.NikolaichukVS.Sprint1.Task0.V0.Lib.csproj">
+    <ProjectReference Include="..\Tyuiu.NikolaichukVS.Sprint1.Task0.V0.Lib\Tyuiu.NikolaichukVS.Sprint1.Task0.V18.Lib.csproj">
       <Project>{af832b29-f9b1-4606-8eb5-54af4e60b596}</Project>
-      <Name>Tyuiu.NikolaichukVS.Sprint1.Task0.V0.Lib</Name>
+      <Name>Tyuiu.NikolaichukVS.Sprint1.Task0.V18.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
