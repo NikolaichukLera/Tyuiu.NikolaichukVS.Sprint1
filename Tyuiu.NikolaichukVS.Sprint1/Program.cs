@@ -10,17 +10,19 @@ namespace Tyuiu.NikolaichukVS.Sprint1
     {
         static void Main(string[] args)
         {
-            int a = 10;
+            int a = 2;
 
-            int b = a / 4;
+            int b = a - 3;
 
-            b = b * (b % 3);
+            int c = a + 1;
 
-            a = a - (b++ - 1);
+            a = b + a - c;
 
-            int x = a + b;
+            c -= b + a;
 
-            Console.WriteLine(a + b);
+            b += a - 1;
+
+            Console.WriteLine(a + b + c);
 
 
 
