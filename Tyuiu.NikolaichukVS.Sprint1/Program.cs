@@ -10,13 +10,20 @@ namespace Tyuiu.NikolaichukVS.Sprint1
     {
         static void Main(string[] args)
         {
-            int i = 5;
+            int a = 10;
 
-            double f = 7.5;
+            int b = a / 4;
 
-            double dbl = 10.01;
+            b = b * (b % 3);
 
-            Console.WriteLine("i=" + i + "\\f=" + f + "\\dbl=" + dbl);
+            a = a - (b++ - 1);
+
+            int x = a + b;
+
+            Console.WriteLine(a + b);
+
+
+
 
             Console.ReadKey();
 
