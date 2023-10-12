@@ -10,21 +10,18 @@ namespace Tyuiu.NikolaichukVS.Sprint1
     {
         static void Main(string[] args)
         {
-            int a = 2;
 
-            int b = a - 3;
+            int y = 0, x = 0;
 
-            int c = a + 1;
+            x = Convert.ToInt32(Console.ReadLine());
 
-            a = b + a - c;
+            y = x + 1;
 
-            c -= b + a;
+            Console.WriteLine(x * x);
 
-            b += a - 1;
+            return;
 
-            Console.WriteLine(a + b + c);
-
-
+            Console.WriteLine(y);
 
 
             Console.ReadKey();

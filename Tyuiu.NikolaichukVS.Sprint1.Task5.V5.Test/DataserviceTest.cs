@@ -11,13 +11,11 @@ namespace Tyuiu.NikolaichukVS.Sprint1.Task5.V5.Test
         [TestMethod]
         public void ValidExpression()
         {
-            double x = 32.597;
             DataService ds = new DataService();
-            double res = ds.Calculate(x);
-
-            int result = Convert.ToInt32(res);
-
-            double d = 5;
+            double x = 32.597;
+            double y = 10;
+            var res = DataService.Calc(x, y);
+            
             Assert.AreEqual(d, res);
 
 

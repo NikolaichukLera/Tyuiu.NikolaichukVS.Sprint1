@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 using tyuiu.cources.programming.interfaces.Sprint1;
 
-namespace Tyuiu.NikolaichukVS.Sprint1.Task5.V5.Lib
+namespace Tyuiu.NikolaichukVS.Sprint1.Task6.V16.Lib
 {
-    public class DataService 
+    public class DataService : ISprint1Task6V16
     {
-        public int Calc(int x, int y)
+        public bool CheckSpecSymbols(string value)
         {
-
-            return (x * y) / 10;
+            
         }
     }
 }
