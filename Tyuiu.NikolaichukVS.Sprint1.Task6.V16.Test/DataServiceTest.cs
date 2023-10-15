@@ -9,14 +9,13 @@ namespace Tyuiu.NikolaichukVS.Sprint1.Task6.V16.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidExpression()
+        public void ValidString()
         {
-            string strTest = "Ну нужно!";
+            string strTest = "один два три";
             DataService ds = new DataService();
-            string res = ds.CheckSpecSymbols(strTest);
-            string wait = "!";
+            string res = ds.DeleteLastLetter(strTest);
+            string wait = "оди дв тр";
             Assert.AreEqual(wait, res);
-
         }
     }
 }
