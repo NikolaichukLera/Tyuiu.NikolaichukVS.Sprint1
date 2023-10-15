@@ -12,7 +12,42 @@ namespace Tyuiu.NikolaichukVS.Sprint1.Task5.V5
     {
         static void Main(string[] args)
         {
+            DataService ds = new DataService();
 
+            Console.Title = "Спринт #1 | Выполнила: Николайчук В. С.| РПСБ-23-1";
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #1                                                               *");
+            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант #4                                                              *");
+            Console.WriteLine("* Выполнила: Николайчук Валерия Сергеевна | РПСБ-23-1                     *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные  *");
+            Console.WriteLine("* секунды k) и определяет, сколько полных часов прошло к этому моменту    *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+
+           
+
+            Console.WriteLine("Введите количество секунд K: ");
+            int k = Convert.ToInt32(Console.ReadLine());
+
+            
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+
+            int res = Convert.ToInt32(ds.SecondsToHours(k));
+            Console.WriteLine(res);
+
+            Console.ReadKey();
         }
     }
 }
+
+        

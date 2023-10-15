@@ -10,10 +10,10 @@ namespace Tyuiu.NikolaichukVS.Sprint1.Task5.V5.Lib
 {
     public class DataService 
     {
-        public int Calc(int x, int y)
+        public int SecondsToHours(int k)
         {
-
-            return (x * y) / 10;
+            int res = (k / 60) / 60;
+            return res;
         }
     }
 }
